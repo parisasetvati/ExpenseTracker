@@ -1,0 +1,16 @@
+.section{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: #fff;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border-radius:20px;
+    box-shadow: 10px 10px 10px  #ccc;
+    ;
+}

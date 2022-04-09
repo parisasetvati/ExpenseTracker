@@ -1,0 +1,48 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin:5px;
+}
+.input{
+    /* width: 300px; */
+    width: 300px;
+    border:1px solid #cbd5e1
+    ;
+    padding: 9px;
+    margin: 6px auto;
+    border-radius: 10px;
+    
+    outline: none;
+
+}
+.radio{
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    width: 100%;
+}
+label{
+    font-weight: bold;
+    font-size: 10pt;
+}
+.addTransaction{
+    width: 180px;
+    background-color: #334155;
+    height: 40px;
+    border: 2px solid #334155;
+    outline: none;
+    color:#fff;
+    border-radius: 10px;
+    transition: .5s;
+    font-weight: bold;
+    margin: 5px auto;
+}
+.addTransaction:hover{
+    background-color: #f1f5f9;
+    color:#334155;
+    border: 2px solid #334155;
+}

@@ -1,0 +1,23 @@
+.input{
+    /* width: 300px; */
+    width: 300px;
+    border:1px solid #cbd5e1  ;
+    padding: 9px;
+    margin: 7px auto;
+    border-radius: 10px;
+    
+    outline: none;
+
+}
+.transaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid #cbd5e1;
+    background-color: #334155;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin: 5px auto;
+    color: #fff;
+    font-weight: 600;
+}
